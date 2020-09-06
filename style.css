@@ -1,0 +1,49 @@
+
+
+h1{
+    font: 50px Arial;
+    text-align: left;
+    width: 50%;
+    float: left;
+    color: grey;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+#content{
+    font: 20px Arial;
+    color: grey;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+
+#content p{
+    margin-right: 25px;
+}
+
+.images{
+    width: 50%;
+    float: right;
+    padding-right: 25px;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+
+.button{
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+    background-color: grey;
+    padding: 5px 25px 5px 25px;
+    box-sizing: border-box;
+}
+
+a{
+    font-style: italic;
+}
+
+a:hover{
+    background-color: yellow;
+}

@@ -1,6 +1,16 @@
 <!DOCTYPE html> 
 <html>
 <head>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <!-- Include your style.css here -->
     <link type="text/css" rel="stylesheet" href="style.css">
     <title>
         Page Title
@@ -10,29 +20,29 @@
 
 <body>  
     <script defer src="js/main.js"></script>
-
-    <h1>
-        All About BC
-    </h1>
-    <div class="images">
-        <img src="https://www.bc.edu/content/dam/bc1/offices/ouc/OUC%20photos/GarganHall1000x667.jpg.transform/gallery-XL/image.jpg" alt="Bapst" width=100%>
-        <a href="https://www.bc.edu" id='bc_link' >
-            For more information about Boston College 
-        </a>
-    </div>
-    <div id="content">
-        <button type="button" class="button" id="generate">
-            Generate a Boston College fact
-        </button>
-        <!-- <p class="fact">
-            A fact about Boston College.
-        </p>
-        <p class="fact">
-            Another fact about Boston College.
-        </p>
-        <p class="fact">
-            A third fact about Boston College
-        </p> -->
+    <div class="container">
+        <div class = "row">
+            <div class="column">
+                <h1>
+                    All About BC
+                </h1>
+                <button type="button" class="button" id="generate">
+                    Generate a Boston College fact
+                </button>
+                <div id="content">
+                 <!-- content added by javascript script -->
+                </div>
+            </div>
+            <div class="column">
+                <div class="images">
+                    <img src="https://www.bc.edu/content/dam/bc1/offices/ouc/OUC%20photos/GarganHall1000x667.jpg.transform/gallery-XL/image.jpg" alt="Bapst" width=100%>
+                    <img src="https://www.bc.edu/content/dam/bc1/offices/ouc/OUC%20photos/gasson.1000x667.jpg.transform/gallery-XL/image.jpg" alt="Gasson" width=100%>
+                    <a href="https://www.bc.edu" id='bc_link' >
+                        For more information about Boston College 
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

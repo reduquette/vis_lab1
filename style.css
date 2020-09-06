@@ -1,6 +1,6 @@
 
 
-h1{
+/* h1{
     font: 50px Arial;
     text-align: left;
     width: 50%;
@@ -29,21 +29,22 @@ h1{
     padding-right: 25px;
     padding-top: 35px;
     box-sizing: border-box;
-}
+} */
 
 .button{
-    font-style: italic;
-    font-size: 15px;
+    /* font-style: italic;
+    font-size: 15px; */
     color: white;
     background-color: grey;
-    padding: 5px 25px 5px 25px;
-    box-sizing: border-box;
+    border-color: grey;
+    /* padding: 5px 25px 5px 25px;
+    box-sizing: border-box; */
 }
 
 a{
-    font-style: italic;
+    color: grey;
 }
 
 a:hover{
-    background-color: yellow;
+    font-style: italic;
 }
